@@ -187,14 +187,14 @@ public class ScoreManager : MonoBehaviour
                     ErrorText.text = "";
                     SuccessSource.Play();
 
-                    if (!CorrectCards.Contains("Fish"))
+                    if (!CorrectCards.Contains("Butterfly"))
                     {
                         score++;
-                        CorrectCards.Add("Fish");
+                        CorrectCards.Add("Butterfly");
                     }
                     Debug.Log(score);
                 }
-                else if (hit.collider.gameObject.name == "Wrong_Rabbit" || hit.collider.gameObject.name == "Wrong_Cat")
+                else if (hit.collider.gameObject.name == "Wrong_Fish" || hit.collider.gameObject.name == "Wrong_Penguin")
                 {
                     Debug.Log("Wrong");
                     ErrorText.text = "Try again.";
@@ -251,7 +251,7 @@ public class ScoreManager : MonoBehaviour
 
 
 
-            if (score == 8)
+            if (score == 9)
             {
                 ErrorText.color = Color.yellow;
                 ErrorText.text = "Congrats! You got all of them right!";
