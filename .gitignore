@@ -1,3 +1,5 @@
 *.dll
 *.obj
 *.csproj
+*Build/Library/*
+*Build/Temp/*
