@@ -7,4 +7,4 @@ so for the first commits we exported the package and saved it in different folde
 from our Unity project is up, so enjoy!
 
 Look for our scripts under the Build folder, which include ScoreManager.cs and SoundManager.cs (note that these scripts 
-were originally just under the Build folder, but we moved it to the Scripts folder later on)
+were originally just under the Build folder, but were moved to the Scripts folder later on)
